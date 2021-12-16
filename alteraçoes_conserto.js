@@ -24,6 +24,8 @@ consertos.forEach(conserto => {if
 // aparelhos prontos e não prontos
 const prontos = consertos.filter((entrega)=> {return entrega.pronto})
 
+console.log(prontos);
+
 const nãoProntos = consertos.filter(conserto => conserto.pronto === false);
 
 console.log(nãoProntos);
